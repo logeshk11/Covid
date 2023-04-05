@@ -2,9 +2,9 @@ from GoogleNews import GoogleNews
 import datetime as dt
 import smtplib
 
-my_mail = "logeshlearningpy@gmail.com"
-password = "maodtshloduyjshz"
-to_mail = "vigneshkumar1827@gmail.com kumarlogesh96@gmail.com"
+my_mail = "from mail"    #for confidencial purpose i did not fill in the mail id and password
+password = "password"
+to_mail = "mail id you want to send"
 
 connection = smtplib.SMTP("smtp.gmail.com")
 connection.starttls()
